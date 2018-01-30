@@ -1,0 +1,84 @@
+/**
+@author https://github.com/shionphan
+*/
+.inv-cont{
+    max-width: 928px;
+    background: #fff;
+    border-radius: 3px;
+    border: 1px dotted #ccc;
+    margin: 1em auto;
+    padding: 1.5em;
+}
+.inv-cont h1{
+    margin:0 0 20px;
+}
+.inv-paystatus{
+    padding: 5px 10px;
+    color:#fff;
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
+.inv-payment{
+    margin:10px auto;
+}
+.inv-paymathod{
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    border-radius: 3px;
+    padding: 10px;
+}
+@media(min-width:768px){
+    .inv-paymathod{
+        min-height: 260px;
+    }
+}
+.inv-paymathod p{
+    font-size: 16px;
+    text-align: left;
+}
+.inv-invnum{
+    background-color: #ffffff;
+    border-bottom: 1px dashed #ddd;
+}
+.inv-paymon{
+    font-size: 28px;
+    color:#2e962c;
+}
+h2{
+    margin:10px auto;
+    font-size: 18px;
+    font-weight: bold;
+}
+.panel{
+    border-radius: 0;
+}
+.panel h2{
+    margin:0;
+}
+.panel .panel-heading{
+    border-radius: 0;
+}
+.inv-company{
+    border-bottom: 1px dashed #ddd;
+}
+.draft {
+    background-color: #888;
+    color:#333;
+}
+.unpaid {
+    background-color: #cc0000;
+}
+.paid {
+    background-color: #779500;
+}
+.refunded {
+    background-color: #224488;
+}
+.cancelled {
+    background-color: #888;
+    color:#333;
+}
+.collections {
+    background-color: #8a6d03;
+}
